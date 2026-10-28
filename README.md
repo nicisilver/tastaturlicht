@@ -34,7 +34,7 @@ weil die Register dort etwas ganz anderes bedeuten könnten (z. B. Lüfter oder 
 ## 📦 Installieren
 
 ```bash
-git clone <LINK-ZU-DIESEM-PROJEKT> tastaturlicht
+git clone https://github.com/nicisilver/tastaturlicht.git
 cd tastaturlicht
 ./installieren.sh
 ```
