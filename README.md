@@ -4,9 +4,6 @@ Ein selbstgeschriebener Linux-Treiber, mit dem die **RGB-Tastaturbeleuchtung** v
 **MECHREVO Jiaolong** (Mainboard `X6xR55xK`) unter Linux die Farbe wechseln kann.
 Mit Farb-Programm und Knopf im GNOME-Schnellmenü. 🌈
 
-> Gebaut an einem Abend, um die Tastatur endlich **pink** zu machen.
-> Am Ende ist es dann doch **lila** geworden. 💜
-
 ## ✨ Was dabei ist
 
 | Teil | Ordner | Was es macht |
@@ -45,7 +42,7 @@ Dann musst du **neu starten** und im **blauen Bildschirm** bestätigen:
 
 1. `Press any key` → schnell eine Taste drücken
 2. **Enroll MOK** → **Continue** → **Yes**
-3. Das Einmal-Passwort eingeben (⚠️ amerikanische Tastatur: Y und Z sind vertauscht!)
+3. Das Einmal-Passwort eingeben 
 4. **Reboot**
 
 Danach **einmal ab- und wieder anmelden** und:
