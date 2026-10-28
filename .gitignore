@@ -1,0 +1,25 @@
+# Lern-Ordner und persönliche Dateien – bleiben nur auf meinem Laptop
+acpi/
+hallo/
+lesen/
+pink/
+
+# Gebaute Treiber-Dateien (entstehen bei "make", gehören nicht ins Projekt)
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+.*.cmd
+Module.symvers
+modules.order
+.module-common.o
+
+# Python-Zwischenspeicher
+__pycache__/
+
+# Niemals Schlüssel hochladen! 🔐
+*.priv
+*.der
+*.key
+*.pem

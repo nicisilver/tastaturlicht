@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Tastaturlicht
+Comment=Farbe meiner Tastatur einstellen 💜
+Exec=tastaturlicht
+Icon=tastaturlicht
+Categories=Settings;HardwareSettings;
+Keywords=Tastatur;Licht;Farbe;RGB;Keyboard;
+StartupWMClass=de.nes.Tastaturlicht

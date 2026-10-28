@@ -1,0 +1,22 @@
+/* Aussehen der Farbpunkte im Schnellmenü 💜 */
+
+.tastaturlicht-punkte {
+  spacing: 8px;
+  padding: 4px 0;
+}
+
+.tastaturlicht-punkt {
+  width: 28px;
+  height: 28px;
+  border-radius: 9999px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.tastaturlicht-punkt:hover,
+.tastaturlicht-punkt:focus {
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.tastaturlicht-punkt:active {
+  border-width: 3px;
+}

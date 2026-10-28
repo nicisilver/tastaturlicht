@@ -1,0 +1,7 @@
+{
+  "uuid": "tastaturlicht@nes",
+  "name": "Tastaturlicht",
+  "description": "Mini-Version meines Farb-Programms im Schnellmenü 💜",
+  "shell-version": ["50"],
+  "version": 1
+}

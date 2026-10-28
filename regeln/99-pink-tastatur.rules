@@ -1,0 +1,8 @@
+# 99-pink-tastatur.rules – Erlaubnis-Regel für das Tastaturlicht 🔓
+#
+# Wenn das Licht "pink_tastatur::kbd_backlight" auftaucht (ACTION=="add"),
+# dürfen alle Mitglieder der Gruppe "tastaturlicht" die beiden Licht-Dateien
+# beschreiben. Dann geht das Farb-Programm ohne Passwort.
+# Nur diese zwei Dateien, sonst nichts! (Und Leon ist nicht in der Gruppe. 😼)
+
+ACTION=="add", SUBSYSTEM=="leds", KERNEL=="pink_tastatur::kbd_backlight", RUN+="/usr/bin/chgrp tastaturlicht /sys%p/brightness /sys%p/multi_intensity", RUN+="/usr/bin/chmod g+w /sys%p/brightness /sys%p/multi_intensity"
